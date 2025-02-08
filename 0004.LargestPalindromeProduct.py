@@ -10,7 +10,7 @@ import math
 import time
 
 # How Many digits should be in the multipliers
-n_digit = 4
+n_digit = 3
 
 max_number = int("9" * n_digit)
 min_number = int("9" * (n_digit - 1))+1

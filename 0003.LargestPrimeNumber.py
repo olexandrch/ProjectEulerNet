@@ -22,7 +22,7 @@ def sq_root_up(n):
 def is_prime(n):
   if n<=0:
     return False
-  for x in range(2, sq_root_up(n)):
+  for x in range(2, n):
     if n % x == 0:
       return False
 
